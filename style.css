@@ -3,16 +3,34 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
-
+p{
+    color: dimgray;
+}
 h1{
     font-size: 50px;
 }
-.orange-color{
-    color: #FFC864;
+h2{
+    font-size: 40px;
 }
 section{
     display: flex;
+    margin-bottom: 100px;
 }
+.btn {
+	background-image: linear-gradient(orange,tomato);
+	padding: 10px 40px;
+	border-radius: 5px;
+	color: #fff;
+
+    font-weight: 700;
+    text-decoration: none;
+}
+/*-------Header-area-------*/
+
+.orange-color{
+    color: #FFC864;
+}
+
 .header-width{
     width: 50%;
     padding-left: 2%;
@@ -35,4 +53,22 @@ section{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
     
+}
+
+/*-------Dream Section-------*/
+
+.dream{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.dream-width{
+    width: 50%;
+    float: left;
+    padding-left: 2%;
+    margin-left: 5%;
+    margin-right: 10%;
+}
+.dream-width img{
+    width: 100%;
 }
